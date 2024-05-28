@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> credit card Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <header class="topheader">
+            <a href="">YOUR ORDER</a>
+            <a href="">SHIPPING DETAILS</a>
+            <a id="pay" href=""><b>PAYMENT DETAILS</b></a>
+            <a href="">CONFIRMATION</a>
+        </header>
+        <div class="card">
+            <img src="VISALogo2.jpeg" alt="">
+            <img id="chip" src="chip.jpeg" alt="">
+            <p id="number">1255 1911 2487 1244</p>
+            <p id="name">DAN BILZERIAN</p>
+            <p id="exp">22/25</p>
+        </div>
+
+        <div class="information">
+            <h1 id="paydet">PAYMENT DETAILS</h1>
+            <div class="costmername">
+                <p class="cardname">Name on Card</p>
+                <input class="cosdet" type="name" required>
+
+                <p class="cardnum"> Card Number</p>
+                <input class="cosnum" type="number" maxlength="16" required>
+
+                <p class="date">Valid Through</p>
+                <input class="cosdate" type="text" placeholder="DD-YY" maxlength="5" required>
+
+                <p class="cvv">CVV</p>
+                <input class="cospass" type="password" maxlength="3" required>
+            </div>
+            <button>PAY <b>$880.00</b></button>
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>
